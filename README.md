@@ -17,6 +17,7 @@
 This repo contains a trigger for the text expander [Espanso](https://espanso.org/) that eases the use of Discord its local time feature. Discord allows you to write a unix timestamp as → `<t:1643787562>` which will turn into the reader its local time equivelant (for me in CET `February 2, 2022 8:39 AM`). This can be useful to quickly share times and dates without the need for the readers to convert the time into their local timezone.
 
 ## Installation
+* [For Linux] Install Modulo manually to enable the use of forms with Espanso. See the forms [prerequisites](https://espanso.org/docs/forms/#prerequisites) page.
 * Run `espanso edit` in your terminal to configure your espanso matches.
 * Add the following trigger to the matches in your espanso config:
 ``` yaml
