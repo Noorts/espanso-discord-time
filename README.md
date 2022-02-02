@@ -19,7 +19,7 @@ This repo contains a trigger for the text expander [Espanso](https://espanso.org
 ## Installation
 * Run `espanso edit` in your terminal to configure your espanso matches.
 * Add the following trigger to the matches in your espanso config:
-```
+``` yaml
 # Discord Local Time
   - trigger: "`dlt"
     replace: "<t:{{unixTimestamp}}> (← your local time)"
@@ -32,7 +32,7 @@ This repo contains a trigger for the text expander [Espanso](https://espanso.org
         type: form
         params:
           layout: |
-            Your local time:
+            --- Your local time: ---
             {{name}}
           fields:
             name:
