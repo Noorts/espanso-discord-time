@@ -18,6 +18,7 @@ This repo contains a trigger for the text expander [Espanso](https://espanso.org
 
 ## Installation
 * [For Linux] Install Modulo manually to enable the use of forms with Espanso. See the forms [prerequisites](https://espanso.org/docs/forms/#prerequisites) page.
+* Make sure that the `datetime` and `os` modules are available in your Python environment (otherwise the script will fail when you run the trigger down below).
 * Run `espanso edit` in your terminal to configure your espanso matches.
 * Add the following trigger to the matches in your espanso config:
 ``` yaml
